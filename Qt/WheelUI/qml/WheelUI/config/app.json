@@ -1,0 +1,95 @@
+[{
+    "name": "Mail",
+    "glowColor": "369154",
+    "icon": "email.png"
+},{
+    "name": "WIFI",
+    "glowColor": "6d38d4",
+    "icon": "wifi.png"
+},{
+    "name": "Clock",
+    "glowColor": "809900",
+    "app": "apps/clock/WClock.qml",
+    "icon": "clock.png"
+},{
+    "name": "Calculator",
+    "glowColor": "178ecb",
+    "icon": "calculator.png"
+},{
+    "name": "Camera",
+    "glowColor": "c0243c",
+    "icon": "camera.png"
+}, {
+    "name": "Calendar",
+    "glowColor": "eb7126",
+    "icon": "calendar.png"
+}, {
+    "name": "Chrome",
+    "glowColor": "009abe",
+    "icon": "chrome.png"
+}, {
+    "name": "Video",
+    "glowColor": "c1253e",
+    "icon": "video camera.png"
+}, {
+    "name": "Settings",
+    "glowColor": "383838",
+    "icon": "settings.png"
+}, {
+    "name": "Skype",
+    "glowColor": "00b5e3",
+    "icon": "skype.png"
+}, {
+    "name": "Timer",
+    "glowColor": "d4550f",
+    "icon": "timer.png"
+}, {
+    "name": "Tumblr",
+    "glowColor": "385084",
+    "icon": "tumblr.png"
+}, {
+    "name": "Twitter",
+    "glowColor": "10adc4",
+    "icon": "twitter.png"
+}, {
+    "name": "Facebook",
+    "glowColor": "0d6fac",
+    "icon": "fb.png"
+}, {
+    "name": "Evernote",
+    "glowColor": "16b005",
+    "icon": "evernote.png"
+}, {
+    "name": "Instagram",
+    "glowColor": "7940b3",
+    "icon": "instagram.png"
+}, {
+    "name": "Kindle Reader",
+    "glowColor": "e5770c",
+    "icon": "kindle.png"
+}, {
+    "name": "Pinterest",
+    "glowColor": "c20000",
+    "icon": "pinterest.png"
+}, {
+    "name": "Sound Hound",
+    "glowColor": "e78100",
+    "icon": "soundhound.png"
+}, {
+    "name": "Sound Cloud",
+    "glowColor": "e48500",
+    "icon": "soundscloud.png"
+}, {
+    "name": "uTorrent BT Download",
+    "glowColor": "00b040",
+    "icon": "utorrent.png"
+}, {
+    "name": "Vimeo",
+    "glowColor": "04a9b4",
+    "icon": "vimeo.png"
+}, {
+    "name": "Weather",
+    "glowColor": "27b3d4",
+    "icon": "weather.png"
+}]
+
