@@ -193,8 +193,8 @@ Item {
     ]
 
     // Icon movement animation
-    Behavior on x { XAnimator { duration: 400; easing.type: Easing.OutBack; easing.overshoot: 2.0 } }
-    Behavior on y { YAnimator { duration: 400; easing.type: Easing.OutBack; easing.overshoot: 0.5 } }
+    Behavior on x { XAnimator { duration: 300 + Math.max(100, blockIndex * 10); easing.type: Easing.OutBack; easing.overshoot: 2.0 } }
+    Behavior on y { YAnimator { duration: 300 + Math.max(100, blockIndex * 10); easing.type: Easing.OutBack; easing.overshoot: 0.5 } }
 
     MouseArea {
         id: mouseHandler
@@ -205,7 +205,7 @@ Item {
 //        }
 
         onClicked: {
-            //myItem.appUrl = "apps/clock/WClock.qml";
+            //console.log(myItem.appUrl);
             if ( myItem.appUrl != "" ) {
 
                 if ( myItem.state == 'icon-mode' ) {

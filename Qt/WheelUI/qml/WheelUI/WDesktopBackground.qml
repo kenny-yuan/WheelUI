@@ -14,7 +14,7 @@ Item {
         anchors.top: parent.top
         source: "./images/background/colorful-1920.png"
         sourceSize: Qt.size(1920, 1536)
-        visible: false
+        visible: true
     }
 
     MouseArea {

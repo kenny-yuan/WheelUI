@@ -9,18 +9,26 @@ Item {
 
     property variant appList: null
 
-    DesktopBackground {
+    WDesktopBackground {
         anchors.fill: parent
     }
 
-    IconHome {
+    WRoundButton {
+        backgroundColor: "#FF8080"
+    }
+
+//    WBubbleMessage {
+//        width: 360
+//    }
+
+    WIconHome {
         anchors.top: statusBar.bottom
         anchors.bottom: dock.top
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width
     }
 
-    StatusBar {
+    WStatusBar {
         id: statusBar
         anchors.top: parent.top
         anchors.right: parent.right

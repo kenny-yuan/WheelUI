@@ -22,8 +22,11 @@ OTHER_FILES += \
     qml/WheelUI/WInteractiveIcon.qml \
     qml/WheelUI/WDock.qml \
     qml/WheelUI/apps/clock/WClock.qml \
-    qml/WheelUI/IconHome.qml \
-    qml/WheelUI/DesktopBackground.qml
+    qml/WheelUI/WIconHome.qml \
+    qml/WheelUI/WStatusBar.qml \
+    qml/WheelUI/WDesktopBackground.qml \
+    qml/WheelUI/WBubbleMessage.qml \
+    qml/WheelUI/apps/calc/WCalculator.qml
 
 HEADERS += \
     filereader.h
